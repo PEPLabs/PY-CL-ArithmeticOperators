@@ -1,5 +1,5 @@
 import unittest
-from ..main.lab import (
+from src.main.lab import (
     add_numbers,
     subtract_numbers,
     multiply_numbers,
