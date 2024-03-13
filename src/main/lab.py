@@ -21,9 +21,11 @@ def add_numbers( a, b):
 def subtract_numbers( a, b):
         """
         * Instead of returning 0, this method should return the difference between two integers (ints).
-        *
-        * @param a first number to be added.
-        * @param b second number to be added.
+        
+        Args:
+        a (int): The first number.
+        b (int): The second number.
+
         * @return the difference of a and b
 
         """
