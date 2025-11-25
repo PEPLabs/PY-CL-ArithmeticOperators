@@ -1,0 +1,45 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_add_numbers",
+          "label": "Add Numbers",
+          "description": "Verifies that add_numbers correctly returns the sum of two integers."
+        },
+        {
+          "methodName": "test_subtract_numbers",
+          "label": "Subtract Numbers",
+          "description": "Verifies that subtract_numbers correctly subtracts the second integer from the first."
+        },
+        {
+          "methodName": "test_multiply_numbers",
+          "label": "Multiply Numbers",
+          "description": "Ensures multiply_numbers returns the product of two integers."
+        },
+        {
+          "methodName": "test_divide_numbers",
+          "label": "Divide Numbers",
+          "description": "Checks that divide_numbers performs valid division and returns the result."
+        },
+        {
+          "methodName": "test_divide_by_zero",
+          "label": "Divide by Zero",
+          "description": "Ensures divide_numbers raises a ValueError when attempting division by zero."
+        },
+        {
+          "methodName": "test_modulus_numbers",
+          "label": "Modulus Numbers",
+          "description": "Verifies that modulus_numbers correctly returns the remainder of a division operation."
+        },
+        {
+          "methodName": "test_modulus_by_zero",
+          "label": "Modulus by Zero",
+          "description": "Ensures modulus_numbers raises a ValueError when attempting modulus by zero."
+        }
+      ]
+    }
+  ]
+}
